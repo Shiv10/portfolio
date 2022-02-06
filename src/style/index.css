@@ -116,6 +116,12 @@
     -webkit-box-shadow: 0 0 11px rgba(237, 232, 237, 0.5)  ; 
     -moz-box-shadow: 0 0 11px rgba(237, 232, 237, 0.5)  ; 
   }
+
+.git {
+  font-size: 1.5rem;
+}
+
+
   /* FLEXBOX */
   .flex {
     display: flex;
