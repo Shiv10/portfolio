@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="container">
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <StyleP className="whiteColor font13">
-               Made with <span><FaHeart style={{color: "red"}}/></span> by Shivansh
+               Made with <FaHeart style={{color: "red"}}/> by Shivansh
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
