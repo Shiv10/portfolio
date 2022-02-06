@@ -42,7 +42,7 @@ export default function ClientSlider() {
   };
   return (
     <div>
-      <h2>Familiar Tech Stack</h2>
+      <h2 style={{textAlign:"center"}}>Familiar Tech Stack</h2>
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <ImgStyle src={ClientLogo01} alt="client logo" />
