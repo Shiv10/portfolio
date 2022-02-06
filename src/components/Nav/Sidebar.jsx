@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
@@ -80,13 +81,13 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       </UlStyle>
       <UlStyle className="flexSpaceCenter">
         <li className="semiBold font15 pointer">
-          <a href="/" style={{ padding: "10px 30px 10px 0" }} className="whiteColor">
-            Log in
+          <a href="https://github.com/Shiv10" style={{ padding: "10px 30px 10px 0" }} className="whiteColor">
+          <FaGithub className="git"/>
           </a>
         </li>
         <li className="semiBold font15 pointer flexCenter">
-          <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
-            Get Started
+          <a href="https://www.linkedin.com/in/sShivanshSharma/" style={{ padding: "10px 15px" }} className="whiteColor">
+          <FaLinkedin className="git" />
           </a>
         </li>
       </UlStyle>
