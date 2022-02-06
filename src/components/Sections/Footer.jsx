@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
+import { FaHeart } from "react-icons/fa";
+import { AiFillCaretUp } from "react-icons/ai"
 // Assets
 import LogoImg from "../../assets/svg/Logo";
 
@@ -22,11 +24,11 @@ export default function Contact() {
               </h1>
             </Link>
             <StyleP className="whiteColor font13">
-              © {getCurrentYear()} - <span className="purpleColor font13">Fanatic</span> All Right Reserved
+               Made with <span><FaHeart style={{color: "red"}}/></span> by Shivansh
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
-              Back to top
+              <AiFillCaretUp className="git" />
             </Link>
           </InnerWrapper>
         </div>
