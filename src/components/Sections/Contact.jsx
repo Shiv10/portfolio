@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
 // Assets
 
 export default function Contact() {
@@ -7,25 +8,17 @@ export default function Contact() {
     <Wrapper id="contact">
       <div className="lightBg">
         <div className="container">
-          <HeaderInfo>
-            <h1 className="font40 extraBold" style={{ textAlign: "center" }}>Let's get in touch</h1>
-          </HeaderInfo>
-          <div className="row" style={{ paddingBottom: "30px", margin: "auto" }}>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" style={{ margin: "auto" }}>
-              <Form>
-                <label className="font13">First name:</label>
-                <input type="text" id="fname" name="fname" className="font20 extraBold" />
-                <label className="font13">Email:</label>
-                <input type="text" id="email" name="email" className="font20 extraBold" />
-                <label className="font13">Subject:</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <label className="font13">Content:</label>
-                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font15" style={{paddingTop: "10px"}}/>
-              </Form>
-              <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px",  margin:"auto"}} />
-              </SumbitWrapper>
+          <h1 className="font40 extraBold" style={{ textAlign: "center" }}>Let's get in touch</h1>
+          <div style={{display: "flex", flexDirection: "column", gap:"1rem", alignItems:"center"}}>
+            <a href="mailto:ishivansh0810@gmail.com" target="_blank">ishivansh0810@gmail.com</a>
+            <a href="tel:+91-9557733535" target="_blank">+91 9557733535</a>
+            <div style={{display: "flex", alignItems: "center", gap:"1rem"}}>
+                <a href="https://www.facebook.com/sshivansh10/" target="_blank"><FaFacebook style={{fontSize: "2rem"}}/></a>
+                <a href="https://twitter.com/Shivansh0810" target="_blank"><FaTwitter style={{fontSize: "2rem"}}/></a>
+                <a href="https://github.com/Shiv10" target="_blank"><FaGithub style={{fontSize: "2rem"}}/></a>
+                <a href="https://www.linkedin.com/in/sShivanshSharma/" target="_blank"><FaLinkedin style={{fontSize: "2rem"}}/></a>
             </div>
+            <p></p>
           </div>
         </div>
       </div>
