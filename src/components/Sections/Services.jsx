@@ -25,7 +25,14 @@ export default function Services() {
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
-              <a href="https://csivit.com" target="_blank"><ServiceBox
+              <a href="https://www.bilzo.in/" target="_blank" rel="noreferrer"><ServiceBox
+                icon="monitor"
+                title="Web Developer and Software Engineer"
+                subtitle="Worked as a software developer for Bilzo Labs creating several production ready PRs"
+              /></a>
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <a href="https://csivit.com" target="_blank" rel="noreferrer"><ServiceBox
                 icon="monitor"
                 title="Technical Head"
                 subtitle="Technical Head at CSI-VIT. Mentored several projects with over 500+ users and managed daily operations and functioning"
@@ -39,7 +46,7 @@ export default function Services() {
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <a href="https://www.ontribe.in/" target="_blank"><ServiceBox
+              <a href="https://www.ontribe.in/" target="_blank" rel="noreferrer"><ServiceBox
                 icon="monitor"
                 title="React Developer"
                 subtitle="Worked closely with the founding member of onTribe to develop their web-app."
